@@ -1,8 +1,3 @@
-h2 {
-    background: rgba(88, 63, 170, 0.691);
-    text-align: center;
-    color: bisque;
-}
 .hide {
     display: none;
 }
@@ -15,3 +10,8 @@ h2 {
     background: transparent url('./image/player.png') center /cover no-repeat;
 }
 
+h2 {
+    background: rgba(88, 63, 170, 0.691);
+    text-align: center;
+    color: bisque;
+}

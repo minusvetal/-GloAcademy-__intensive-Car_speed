@@ -129,7 +129,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.game {
+  background-color: #000;
+}
+.fon {
+  background: url("https://misea.ru/images/u/pages/160/away-3408119-1920.jpg")
+    center / cover no-repeat;
+  min-height: 100vh;
+}
+.game_over {
+  background: url("https://bm.img.com.ua/img/prikol/images/large/5/4/298745.jpg")
+    center / cover no-repeat;
+}
 .hide {
   display: none;
 }
@@ -140,8 +151,6 @@ table {
   height: 100px;
   background: transparent url("./image/player.png") center / cover no-repeat;
   position: absolute;
-  left: 125px;
-  bottom: 10px;
 }
 
 .gameArea {
@@ -159,4 +168,36 @@ table {
   height: 50px;
   background: #fff;
   left: 145px;
+}
+.start {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  z-index: 200;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: black;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.score {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  z-index: 200;
+  color: goldenrod;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: black;
+  font-family: sans-serif;
 }

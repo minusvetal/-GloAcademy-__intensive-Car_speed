@@ -1,0 +1,17 @@
+{
+    "name": "nfs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^10.1.1",
+        "packager": "^0.1.9",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    }
+}
